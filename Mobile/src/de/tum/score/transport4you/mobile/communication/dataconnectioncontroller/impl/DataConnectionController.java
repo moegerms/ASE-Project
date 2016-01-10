@@ -17,7 +17,7 @@ import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathFactory;
 
-import org.bouncycastle.util.encoders.Base64;
+import org.spongycastle.util.encoders.Base64;
 import org.restlet.resource.ClientResource;
 import org.restlet.resource.ResourceException;
 import org.w3c.dom.Document;
@@ -35,7 +35,7 @@ import de.tum.score.transport4you.shared.mobileweb.impl.message.MobileSettings;
 public class DataConnectionController implements IData {
 
 	//private static final String baseURL = "http://score-1042.appspot.com/rest/";
-	private static final String baseURL = "http://10.0.2.2:8080/rest/";
+	private static final String baseURL = "http://10.0.2.2:8080/rest/"; //replace
 	private IMainApplication mainApplication;
 	private Context context;
 	
