@@ -34,8 +34,8 @@ import de.tum.score.transport4you.shared.mobileweb.impl.message.MobileSettings;
 @TargetApi(Build.VERSION_CODES.FROYO)
 public class DataConnectionController implements IData {
 
-	//private static final String baseURL = "http://score-1042.appspot.com/rest/";
-	private static final String baseURL = "http://10.0.2.2:8080/rest/"; //replace
+	private static final String baseURL = "http://score-1042.appspot.com/rest/";
+	//private static final String baseURL = "http://131.159.194.232:8080/rest/"; //replace  192.168.0.12
 	private IMainApplication mainApplication;
 	private Context context;
 	

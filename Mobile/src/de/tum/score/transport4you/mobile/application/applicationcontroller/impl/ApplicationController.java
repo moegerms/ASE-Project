@@ -125,7 +125,7 @@ public class ApplicationController extends Thread implements IMainApplication, I
 					
 					newSettings.setUsername("");
 					newSettings.setPassword("");
-					newSettings.setBusSSID("BUS");
+					newSettings.setBusSSID("BUS"); //BUS
 					newSettings.setBusBTName("BUS");
 					newSettings.setRememberLogin(false);
 					newSettings.setAllowAutoScan(false);
